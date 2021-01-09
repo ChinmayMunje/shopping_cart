@@ -34,7 +34,7 @@ class _DashboardState extends State<Dashboard> {
   Future <List<UserModel>> getUsers() async {
     try{
        final response = await http.get(url,  headers: {
-         "x-rapidapi-key":"c6f43b5dd1mshb618e8588c0ae8bp131569jsn9d4a5c9d7e20", "x-rapidapi-host":"ali-express1.p.rapidapi.com"
+         "x-rapidapi-key":"", "x-rapidapi-host":"ali-express1.p.rapidapi.com"
        });
 
        if(response.statusCode == 200){
